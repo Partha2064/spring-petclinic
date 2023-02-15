@@ -1,0 +1,4 @@
+From openjdk:11
+Expose 8081
+Add target/spring-petclinic.jar spring-petclinic.jar
+Entrypoint ["java","-jar","/spring-petclinic.jar"]
